@@ -1,0 +1,121 @@
+/* Selecteur */
+
+html body{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+hr{
+    height: 20px;
+    background: lightblue;
+    border: none;
+    margin-top: 2rem;
+}
+.container {
+    background: rgba(202, 231, 228, 0.98);
+    padding: 3rem;
+    margin: 5rem;
+    margin-left: 20rem;
+    box-shadow: 4px 6px 15px black;
+    width: 49rem;
+    max-height: 60rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home h1{
+    background: #fffbfb;
+    padding: 1rem;
+    font-size: 19px;
+    border-radius: 1ch;
+}
+.home p{
+    font-style: italic;
+    margin: 0;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    background: #a0a0a0;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: -1px 7px 12px black;
+    font-style: italic;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    border-radius: 39px;
+}
+.contact h3{
+    color:white;
+    text-shadow:  2px 2px 2px black;
+}
+.contact ul{
+    list-style: none;
+    line-height: 25px;
+}
+#profil {
+    display: flex;
+    /* background: red; */
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+}
+.contact ul li a{
+    color: lightyellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+.pro{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: aliceblue;
+    align-items: center;
+    margin-top: 4rem;
+    border-radius: 39px;
+    background: #e9e9e9a6;
+    box-shadow: -1px 3px 5px black;
+}
+.pro h3{
+    font-size: 25px;
+}
+.pro h4{
+    font-size: 12.5px;
+   color: #7b7b7b;
+
+}
+.pro p{
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    font-size: 11px;
+}
+.pro ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+.fas{
+    margin-right: 1rem;
+    color: #423f3f;
+}
+.compet{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.compet ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
